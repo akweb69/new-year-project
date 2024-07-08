@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+/* font-family: "Merriweather", serif; */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+/* font-family: "Inter", sans-serif; */
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* header er css start here */
+.banner-container{
+    max-width: 1320px;
+    min-height: 600px;
+    /* border: 3px solid red; */
+    margin: 0 auto;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(/images/Banner\ Image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+
+}
+.banner-content{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.banner-content p{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.banner-content h1{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+/* catagories section er css start form here */
+.all-catagories{
+    width: 802px;
+    height: 886px;
+    /* border: 3px solid red; */
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.all-catagories h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.all-catagories p{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.all-catagories h4{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.all-catagories img{
+    width: 100%;
+    height: 500px;
+    
+}
+
+/* welcome section er styles start from here */
+.welcome-container{
+   
+    width: 1320px;
+    height: 600px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 120px;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-image: url(/images/Vectorrr.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    border-radius: 16px;
+    margin-bottom: 120px;
+}
+.welcome-content{
+    margin: 0 auto;
+    width: 80%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid red; */
+}
+.welcome-description h3{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.welcome-description p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 28px;
+}
+.welcome-description button{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: Merriweather;
+    color: white;
+    background-color: #09e709;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    
+}
+.welcome-content img{
+    width: 350px ;
+    height: 465px;
+}
+/* join now container style start rom here */
+.join-now{
+    width: 1320px;
+    height: 482px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    margin-bottom: 120px;
+
+
+}
+.join-now .join-container{
+    width: 100%;
+    height: 482px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.join-container p{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+.join-now button{
+    padding: 11px 30px;
+    font-size: 18px;
+    font-family: Merriweather;
+    color: white;
+    background-color: #fa1d1d;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 48px;
+}
+.join-container span{
+    color: red;
+}
