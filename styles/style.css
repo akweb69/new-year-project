@@ -296,3 +296,85 @@
 .comming-soon-more-details{
     width: 33%;
 }
+/* discount section  styles from here */
+.discount{
+    width: 1000px;
+    height: 260px;
+    margin: 0 auto;
+    /* border: 3px solid red; */
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.discount-content{
+    width: 1000px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.discount-content p{
+    text-align: center;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    }
+
+.discount-content h5{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    }
+
+.discount-content h2{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 26px;
+    margin-top: 16px;
+}
+.discount-content span {
+    color: #fa1d1d;
+}
+
+/* for discount image  */
+.discount-img{
+    width: 1320px;
+    height: 662.07px;
+    /* border: 1px solid red; */
+    margin: 0 auto ;
+    margin-bottom: 120px;
+}
+.discount-img-content-box{
+    width: 1000px;
+    height: 662.07px;
+    /* border: 2px solid green; */
+    display: flex;
+    margin: 0 auto;
+    background-image: url(/images/Rectangle\ 2.png);
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 460px;
+
+}
+.img-11{
+    width: 674.82px;
+    height: 577.96px;
+}
+.img-12{
+    width: 305.69px;
+    height: 305.69px;
+}
